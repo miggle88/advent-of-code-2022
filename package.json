@@ -3,10 +3,11 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "day1" : "bun run day-1/index.ts"
+    "day1": "bun run day-1/index.ts"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "prettier": "^3.0.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
